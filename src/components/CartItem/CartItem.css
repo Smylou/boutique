@@ -1,0 +1,37 @@
+.cart-item {
+  display: grid;
+  grid-template-columns: 80px 1fr auto auto auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.cart-item__info h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+
+.cart-item__info p {
+  margin: 0;
+  color: #666;
+}
+
+.cart-item__quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cart-item__subtotal {
+  min-width: 80px;
+  margin: 0;
+  font-weight: bold;
+  text-align: right;
+}

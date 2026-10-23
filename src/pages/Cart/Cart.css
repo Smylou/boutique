@@ -1,0 +1,12 @@
+.cart-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cart-total {
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: right;
+}
